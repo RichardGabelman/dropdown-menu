@@ -7,8 +7,8 @@ export class Dropdown {
           const forClass = dropdown.dataset.forClass;
           const menu = document.querySelectorAll(`.${forClass}`);
           menu.forEach((option) => {
-            option.classList.toggle('visible');
-          })
+            option.classList.toggle("visible");
+          });
         });
       });
     }
