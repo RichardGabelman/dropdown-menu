@@ -1,0 +1,19 @@
+div.menu {
+  display: none;
+  margin-top: 10px;
+}
+
+.menu > div {
+  padding: 5px;
+  width: max-content;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.menu > div:hover {
+  background-color: lightgray;
+}
+
+div.menu.visible {
+  display: block;
+}
